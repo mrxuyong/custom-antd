@@ -1,5 +1,5 @@
 {
-  "name": "my-select",
+  "name": "custom-antd",
   "version": "0.0.1",
   "scripts": {
     "build": "webpack ./webpack.config.js"
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrxuyong/my-select.git"
+    "url": "https://github.com/mrxuyong/custom-antd.git"
   },
   "bugs": {
-    "url": "https://github.com/mrxuyong/my-select/issues"
+    "url": "https://github.com/mrxuyong/custom-antd/issues"
   },
   "files": [
     "dist",
