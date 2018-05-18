@@ -8,4 +8,5 @@ if (process.env.NODE_ENV !== 'production') {
     console.warn(`You are using a whole package of antd, please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.`);
   }
 }
+// export {default as Select} from './select/index';
 export {default as Select} from './select';

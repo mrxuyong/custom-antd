@@ -6,3 +6,6 @@
 # 另外，可以参看 https://github.com/ant-design/ant-design/tree/2.7.0
 
 # MySelect 既是对原生 /ant-design-2.7.0/components/select/index.tsx 的单独包装；
+
+custom-antd.d.ts
+# export { default as Select } from '../components/select';

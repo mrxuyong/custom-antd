@@ -18,6 +18,8 @@ module.exports = {
                         options: {
                             transpileOnly: true,
                             compilerOptions: {
+                                declaration: true,
+                                declarationDir: "./dist",
                                 module: "es2015"
                             }
                         }

@@ -1,14 +1,21 @@
 {
   "name": "custom-antd",
-  "version": "0.0.3",
+  "version": "0.0.14",
   "scripts": {
-    "dist": "webpack ./webpack.config.js"
+    "dist": "webpack ./webpack.config.js",
+    "tsc": "tsc ./tsconfig.json"
   },
   "title": "My Select",
   "description": "An Ant Design 2.7.0 UI select component",
   "contributors": [
     "ant"
   ],
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/mrxuyong/custom-antd.git"
@@ -16,10 +23,6 @@
   "bugs": {
     "url": "https://github.com/mrxuyong/custom-antd/issues"
   },
-  "files": [
-    "dist",
-    "lib"
-  ],
   "dependencies": {
     "classnames": "~2.2.0",
     "react-lazy-load": "^3.0.10",

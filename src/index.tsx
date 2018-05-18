@@ -7,7 +7,11 @@
 // import Select from '../components/select/index';
 // export default Select;
 
-import Select from '../components/select/index';
+/*export { Select} from './components/select/index';
 
 let MySelect = Select;
-export default MySelect;
+export default MySelect;*/
+
+export {default as MySelect} from './components/select/index';
+// export {default as MySelect} from './components/select';
+// export {default as MySelect} from './components';
