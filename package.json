@@ -1,8 +1,8 @@
 {
   "name": "custom-antd",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
-    "build": "webpack ./webpack.config.js"
+    "dist": "webpack ./webpack.config.js"
   },
   "title": "My Select",
   "description": "An Ant Design 2.7.0 UI select component",
