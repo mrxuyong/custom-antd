@@ -1,4 +1,5 @@
 # custom-antd
+#一、 what
 单独 fork ant-design-2.7.0中的select组件
 
 # custom-antd，来自ant-design 官网
@@ -9,3 +10,8 @@
 
 custom-antd.d.ts
 # export { default as Select } from '../components/select';
+
+
+#二、 how
+# 打包 走 tsc，不走webpack；
+# 在package.json 中更改对应的 版本号，然后 在工程根目录下 执行 npm tsc，最后再执行 npm publish 发布到 npmjs上；
